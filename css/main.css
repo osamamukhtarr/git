@@ -1,0 +1,284 @@
+body {
+    height: 10000px;
+    overflow-x: hidden;
+    background-color: #fafafa;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.row.fixed-top {
+    height: 4em;
+    background: white !important;
+}
+
+.navbar .container-fluid form button {
+    margin-right: 5em !important;
+}
+
+a.navbar-brand.ms-5 {
+    margin-left: 10em !important;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin: auto;
+    text-align: center;
+}
+
+.row .home .right {
+    margin-top: -3em !important;
+    margin-right: 10em;
+    height: 45em;
+
+}
+
+.row .home .right img {
+    scale: 0.8;
+    width: 189%;
+    height: 130%;
+}
+
+.row .home .left {
+    height: 25em;
+    margin-left: 4em;
+    margin-top: 12em;
+    padding-left: 5.2em;
+}
+
+.row .home .left h1 {
+    font-size: 3em;
+}
+
+.row .home .left p {
+    font-size: 1.12em;
+    padding: 5px;
+}
+
+.row .home .left .btn {
+    margin: 0px !important;
+}
+
+.btn-success {
+    background: linear-gradient(to right, #32cd76, #9198e5);
+    border: none;
+    border-radius: 3em;
+    padding: 10px 30px;
+
+}
+
+/* ///////////////////////////////////////////////////////// */
+.row .about {}
+
+#about {
+    width: 104%;
+}
+
+
+section.ss {
+    background-color: #f4f5f7;
+    height: 33em;
+}
+
+section.ss .card {
+    background-color: #f4f5f7;
+    border: none !important;
+}
+
+section.ss .card h3 {
+    font-size: 1.5em !important;
+    padding: 0.5em 0;
+}
+
+section.ss.card p {}
+
+section.ss .card img {
+    width: 4em;
+    padding: 1rem 0em;
+}
+
+/* ///////////////////////////////////////////// */
+
+section#blog {
+    background-color: #fafafa;
+    height: 40em;
+}
+
+img.card-img-top {
+    height: 10em;
+    width: 100%;
+}
+
+.card.col-lg-3.col-md-6.col-12 {
+    border: none;
+    margin-right: 1em;
+    background: white;
+    width: 16em;
+}
+
+.card.col-lg-3.col-md-6.col-12 h3 {
+    font-size: 1.2em;
+}
+
+/* //////////////////////////////////////// */
+
+footer img.d-block {
+    display: block !important;
+    scale: 2;
+    margin-bottom: 1em;
+    margin-left: 5em;
+}
+
+footer {
+    background-color: #2d314e;
+}
+
+footer .logo ul {
+    list-style: none;
+    display: flex;
+}
+
+footer .logo ul li {
+    text-decoration: none;
+    margin-left: 1em;
+
+}
+
+footer .fir ul,
+footer .sec ul {
+    list-style: none;
+    color: white;
+}
+
+footer .fir ul li,
+footer .sec ul li {
+    text-decoration: none;
+    margin-top: 0.5em;
+
+}
+
+footer .last button {
+    margin-left: 12em;
+}
+
+footer .last h6 {
+    color: white;
+    margin-left: 12em;
+    margin-top: 0.8em;
+}
+
+
+footer .logo,
+footer .fir,
+footer .sec,
+footer .last {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+
+
+/* media////////////////// */
+
+
+@media (max-width:992px) {
+
+    button.navbar-toggler {
+        /* margin-right: 25em !important; */
+    }
+
+    .row .home .left {
+        order: 2;
+        height: 18em;
+    }
+
+    .row .home .left p {
+        width: 70%;
+    }
+
+    section.ss {
+        background-color: #f4f5f7;
+        height: 47em;
+        width: 100%;
+    }
+    section#about {
+        width: 100%;
+        height: 54em;
+    }
+
+    section#blog {
+
+        height: 74em;
+    }
+    .card.col-xl-3.col-md-5.col-12 {
+        margin: auto;
+        margin-top: 2em;
+    }
+    footer .fir ul, footer .sec ul {
+        margin-left: 8em;
+        width: 10em;
+        list-style: none;
+        color: white;
+    }
+    footer .logo, footer .fir, footer .sec, footer .last {
+        padding-top: 3em;
+        padding-bottom: 3em;
+        margin-left: -7em;
+    }
+    footer .logo ul {
+        list-style: none;
+        display: flex;
+        margin-left: 2em;
+    }
+    footer img.d-block {
+        display: block !important;
+        scale: 2;
+        margin-bottom: 1em;
+        margin-left: 9em;
+    }
+}
+
+@media (max-width:768px){
+
+    section#blog {
+        height: 120em;
+    }
+    footer .logo, footer .fir, footer .sec, footer .last {
+        padding-top: 0em;
+        padding-bottom: 0em;
+        text-align: center;
+        margin-left: 0em;
+    }
+    footer img.d-block {
+        display: block !important;
+        scale: 2;
+        margin-bottom: 2em;
+        margin-left: 9em;
+        padding-top: 1em;
+    }
+
+    footer .last button{
+        margin-left: 0;
+    }
+    footer .last h6 {
+        color: white;
+        margin-left: 0em;
+        padding: 1em;
+    }
+    footer .logo ul {
+        list-style: none;
+        display: flex;
+        margin-left: 5em;
+    }
+} 
+
+@media (max-width:576px){
+    .row .home .left {
+        order: 2;
+        height: 37em;
+        margin-top: 12em;
+
+    }
+}
